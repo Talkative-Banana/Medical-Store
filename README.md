@@ -13,7 +13,6 @@
     <strong>Explore the docs »</strong>
     <br />
     <br />
-    
     <a href="https://github.com/Talkative-Banana/Medical-Store/blob/master/Project_OverView.pdf">View Demo</a>
     ·
     <a href="https://github.com/Talkative-Banana/Medical-Store/issues">Report Bug</a>
@@ -55,9 +54,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Source Code Picture][product-screenshot]
+<a href="https://github.com/Talkative-Banana/Medical-Store">
+    <img src="logos/About.png" alt="About">
+</a>
 
-This is an Online Medical Store complete backend project alongwith fully-fledged MySQL database. It contains ER Diagram, Complete Database Dump, Database Entries in both CSV & Excel, Source Code and Project Report. Go and explore the repo :)
+This is an Online Medical Store complete backend project alongwith fully-fledged MySQL database. It contains ER Diagram, Complete Database Dump, Source Code and Project Report. Go and explore the repo :)
 
 ### Built With
 
@@ -68,7 +69,9 @@ This is an Online Medical Store complete backend project alongwith fully-fledged
 * [ReactJS](https://react.dev/)
 
 ## ER Diagram
-![Product Name Screen Shot][product-screenshot-1]
+<a href="https://github.com/Talkative-Banana/Medical-Store">
+    <img src="logos/ER_Diagram.png" alt="ER_Diagram">
+</a>
 
 
 <!-- GETTING STARTED -->
