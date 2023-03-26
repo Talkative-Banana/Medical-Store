@@ -1,0 +1,24 @@
+Embedded queries, can perform following actions:
+
+1) Consumer or Employee access to the portal using their credentials.
+
+	SELECT employee_login_id FROM employee_credentials WHERE employee_login_id = {login_id} AND employee_login_password = {login_pswd}
+	SELECT consumer_login_id FROM consumer_credentials WHERE consumer_login_id = {login_id} AND consumer_login_password = {login_pswd}
+
+2) Consumer or Employee both can view their profiles (On what is available on the database)
+	
+	SELECT * FROM employee WHERE eid = {employee's_id}
+	SELECT * FROM consumer WHERE cid = {consumer's_id}
+
+3) Consumers and employees can search for any particular drug or list all drugs available additionally, Employee can add or delete a new drug too
+
+	View particular or list all drugs(both employee and consumer)
+	
+	SELECT * FROM drug WHERE did = {}
+	SELECT * FROM drug
+	
+	Insert or Delete a drug (only employee)
+
+	INSERT into drug (did, dname, salts, m_date, producer, price, quantity, category) values ({}, '{}', '{}', '{}', {}, {}, {}, '{}')
+
+	DELETE FROM drug where did = {}
