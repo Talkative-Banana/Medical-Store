@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Frame from './components/Frame';
+import NavBar from './components/NavBar';
+import SidePanel from './components/SidePanel';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar logo='/elixir_logo.png' Link1="Home" Link2="Consult Doctor" Link3= "COVID-19" Link4="About" Button="SignIn"/>
+      <div className='flexbox-container'>
+        <div className='flexbox-item_1'><SidePanel/></div>
+        <div className='flexbox-item_2'><Frame Link1='/frame_image.png' Link2='/frame_image.png' Link3='/frame_image.png' Link4='/frame_image.png'/></div>
+      </div>
+      </>
   );
 }
 
