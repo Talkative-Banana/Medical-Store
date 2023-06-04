@@ -29,11 +29,14 @@ function Frame(Props) {
 
   return (
     <>
+    <div className='flexbox-container_frame'>
+
       <div id="tracker" className="myframe">
             <img className= "image" src={Link1} alt="frame_image" draggable="false"/>
             <img className= "image" src={Link2} alt="frame_image" draggable="false"/>
             <img className= "image" src={Link3} alt="frame_image" draggable="false"/>
             <img className= "image" src={Link4} alt="frame_image" draggable="false"/>
+    </div>
     </div>
     </>
   )

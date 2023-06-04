@@ -17,11 +17,24 @@ body{
   /* transform: translate(0%, 0%); */
 }
 
-.flexbox-container{
+.flexbox-container_frame{
   display: flex;
   overflow: hidden;
   padding-top: 90px;
   position: relative;
+}
+
+.flexbox-container_about{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right_container_about{
+  height: 450px;
+  margin-top: 180px;
+  width: 400px;
+  margin-top: 250px;
+  margin-left: 100px;
 }
 
 .flexbox-item_1{
