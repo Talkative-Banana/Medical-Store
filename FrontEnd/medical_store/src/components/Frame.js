@@ -11,7 +11,7 @@ function Frame(Props) {
         setY(window.scrollY);
         const track = document.getElementById("tracker");
         const maxy = window.outerHeight;
-        const percentage = y / maxy * 100;
+        const percentage = Math.min(70, y / maxy * 100);
         track.animate({
           transform : `translate(-${percentage}%, 0%)`
         }, {duration: 1000, fill : "forwards"})

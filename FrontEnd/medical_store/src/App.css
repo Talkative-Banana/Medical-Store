@@ -8,10 +8,11 @@ body{
 .myframe{
   /* width: 100%; */
   display: flex;
+  position: relative;
 }
 
 .myframe > .image{
-  height: 140vmin;
+  height: 100%;
   z-index: -1;
   /* background-size: auto 100%; */
   /* transform: translate(0%, 0%); */
@@ -45,3 +46,41 @@ body{
   height: 140vmin;
   /* overflow: hidden; */
 }
+
+div.card_text{
+  word-wrap: break-word;
+  width: 10px;
+}
+
+.card-prod {
+  border: solid 1px;
+  padding: 30px 14px 20px 14px;
+  margin: 12px 12px 12px 0px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  width: 180px;
+  word-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn_text{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.collections{
+  padding: 70px 30px 30px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+  gap: 10px 10px;
+}
+
+.collections_tag{
+  align-self: start;
+}
+
