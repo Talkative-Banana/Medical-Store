@@ -55,7 +55,6 @@
 ## About The Project
 
 <a href="https://github.com/Talkative-Banana/Medical-Store">
-    <img src="logos/About.png" alt="About">
 </a>
 
 This is an Online Medical Store complete backend project alongwith fully-fledged MySQL database. It contains ER Diagram, Complete Database Dump, Source Code and Project Report. Go and explore the repo :)
