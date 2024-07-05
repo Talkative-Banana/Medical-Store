@@ -5,7 +5,7 @@
     <img src="logos/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Online Medical Store</h3>
+  <h3 align="center">Simply Meds</h3>
 
   <p align="center">
     An awesome MySQL Database Project for Medical Needs!
